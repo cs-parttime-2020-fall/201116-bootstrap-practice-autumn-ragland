@@ -1,21 +1,3 @@
-.nav-link {
-    color : white;
-}
-
-footer {
-    position: absolute;
-    bottom : 0;
-    width: 100%;
-    color : white;
-    text-align: center;
-}
-
-.gridContainer {
-    display : grid;
-    grid-template-columns: repeat(4, 1fr);
-    padding : 5%;
-}
-
-.gridContainer > * {
-    margin: 10px;
+body {
+    background-color: blue;
 }
