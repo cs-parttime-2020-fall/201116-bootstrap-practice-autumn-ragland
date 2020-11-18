@@ -1,3 +1,29 @@
-body {
+/* body {
     background-color: blue;
+} */
+ a {
+     color: white;
+ }
+
+nav {
+    padding : 1%;
+}
+
+footer {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    color : white;
+    text-align: center;
+    padding: 1%;
+}
+
+.gridContainer {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    padding: 5%;
+}
+
+.gridContainer > * {
+    margin: 5px;
 }
